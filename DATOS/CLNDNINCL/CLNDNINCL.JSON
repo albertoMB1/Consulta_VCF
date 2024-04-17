@@ -1,0 +1,3298 @@
+{
+    "Pontocerebellar_hypoplasia,_hypotonia,_and_respiratory_insufficiency_syndrome,_neonatal_lethal": [
+        5072,
+        5094
+    ],
+    "Advanced_sleep_phase_syndrome_3": [
+        13942,
+        13943
+    ],
+    "Autosomal_recessive_early-onset_Parkinson_disease_7": [
+        14139,
+        14250
+    ],
+    "Cone/cone-rod_dystrophy": [
+        16070,
+        16216
+    ],
+    "Leber_congenital_amaurosis": [
+        16104,
+        16117,
+        16205,
+        80041,
+        80256,
+        151380,
+        151469,
+        567618,
+        568140,
+        1305721,
+        1305893,
+        1443802,
+        1443903,
+        1444425,
+        1444689,
+        1444700,
+        1445547,
+        1445640,
+        1446073,
+        1533414,
+        1533432,
+        1533464,
+        1533769,
+        1582641,
+        1582691,
+        1582796,
+        1832554,
+        1832559,
+        1832778,
+        1832825,
+        1832886,
+        1832891,
+        1832908,
+        1832916,
+        2095613,
+        2095626
+    ],
+    "Ehlers-Danlos_syndrome,_kyphoscoliotic_type_1": [
+        23806,
+        24556
+    ],
+    "Partial_RhD": [
+        41792,
+        41799,
+        41801,
+        41803,
+        41809
+    ],
+    "altered_RHD_phenotype": [
+        41792,
+        41799,
+        41801,
+        41805,
+        41806,
+        41813
+    ],
+    "Weak_RhD_expression": [
+        41805,
+        41809,
+        41811,
+        41813,
+        41814,
+        41818,
+        41819,
+        41821,
+        41829
+    ],
+    "RH_C/c_POLYMORPHISM": [
+        41848,
+        41851,
+        41852,
+        41856
+    ],
+    "Severe_congenital_neutropenia": [
+        50592,
+        50660
+    ],
+    "Spastic_ataxia": [
+        62931,
+        62980
+    ],
+    "Benign_concentric_annular_macular_dystrophy": [
+        65713,
+        65860
+    ],
+    "Cobalamin_C_disease": [
+        65713,
+        65860
+    ],
+    "Meier-Gorlin_syndrome_1": [
+        69797,
+        69798
+    ],
+    "Encephalopathy,_acute,_infection-induced,_susceptibility_to,_4": [
+        71151,
+        71164
+    ],
+    "Carnitine_palmitoyl_transferase_II_deficiency,_myopathic_form": [
+        71210,
+        71247
+    ],
+    "Carnitine_palmitoyltransferase_II_deficiency": [
+        71210,
+        71247
+    ],
+    "Desmosterolosis": [
+        72291,
+        72294
+    ],
+    "not_provided": [
+        78289,
+        78335,
+        118688,
+        118693,
+        118704,
+        399225,
+        399227,
+        450390,
+        450398,
+        450401,
+        725749,
+        865236,
+        865242,
+        933615,
+        933647,
+        1064649,
+        1065164,
+        1206995,
+        1206998,
+        1381989,
+        1381997,
+        1473045,
+        1473049,
+        1490137,
+        1490149,
+        1490162,
+        1490169,
+        1490171,
+        1500180,
+        1500189,
+        1546162,
+        1546211,
+        1608180,
+        1608183,
+        1830888,
+        1830933,
+        2108806,
+        2109694,
+        2304423,
+        2304430,
+        2327408,
+        2327774
+    ],
+    "Leber_congenital_amaurosis_2": [
+        80195,
+        80199
+    ],
+    "not_specified": [
+        82103,
+        82108,
+        102142,
+        102144,
+        341813,
+        345882,
+        347709,
+        347882,
+        349668,
+        355148,
+        355150,
+        356884,
+        357088,
+        364472,
+        443872,
+        443882,
+        447123,
+        447126,
+        451508,
+        451510,
+        461315,
+        461317,
+        598750,
+        598751,
+        767655,
+        767657,
+        767658,
+        807024,
+        807026,
+        932576,
+        934223,
+        934443,
+        935965,
+        1064649,
+        1065164,
+        1150984,
+        1150985,
+        1190008,
+        1190010,
+        1428785,
+        1429224,
+        1442446,
+        1442447,
+        1481877,
+        1482069,
+        1493216,
+        1493219,
+        1506665,
+        1506670,
+        1717444,
+        1717479,
+        1717766,
+        1717838,
+        1724117,
+        1724120,
+        1962003,
+        1962007,
+        1986074,
+        1986075,
+        2088715,
+        2088744,
+        2182433,
+        2182459
+    ],
+    "Spermatogenic_failure_4": [
+        84757,
+        84769,
+        84793,
+        84794
+    ],
+    "Diamond-Blackfan_anemia_6": [
+        85449,
+        85450,
+        85451,
+        85452,
+        85453
+    ],
+    "Severe_early-childhood-onset_retinal_dystrophy": [
+        85960,
+        86057,
+        86113,
+        86216,
+        86294,
+        86339,
+        86413,
+        86459,
+        86587,
+        86885,
+        87441,
+        87463,
+        87534,
+        87807,
+        88214,
+        88220,
+        88784,
+        88923,
+        88944,
+        1008132,
+        1008139
+    ],
+    "Stargardt_disease": [
+        86113,
+        86216,
+        86393,
+        88944
+    ],
+    "Retinitis_pigmentosa": [
+        86304,
+        88301,
+        168025,
+        171284
+    ],
+    "Cone-rod_dystrophy_3": [
+        87534,
+        88214
+    ],
+    "Retinitis_pigmentosa_19": [
+        87534,
+        88214
+    ],
+    "maculopathy": [
+        88259,
+        88515
+    ],
+    "Glycogen_storage_disease_type_III": [
+        90072,
+        90408
+    ],
+    "3_beta-Hydroxysteroid_dehydrogenase_deficiency": [
+        103947,
+        103950
+    ],
+    "Gaucher_disease_type_I": [
+        118668,
+        118688,
+        118693,
+        118704,
+        118785,
+        118799,
+        118913,
+        118946,
+        118976
+    ],
+    "Gaucher_disease_perinatal_lethal": [
+        118688,
+        118693,
+        118704
+    ],
+    "Gaucher_disease_type_II": [
+        118688,
+        118693,
+        118704,
+        118727,
+        118844
+    ],
+    "Gaucher_disease_type_III": [
+        118688,
+        118693,
+        118704,
+        118727,
+        118844
+    ],
+    "Parkinson_disease,_late-onset": [
+        118688,
+        118693,
+        118704
+    ],
+    "Hereditary_insensitivity_to_pain_with_anhidrosis": [
+        123584,
+        123691,
+        123804,
+        124445,
+        124452
+    ],
+    "Charcot-Marie-Tooth_disease_type_2I": [
+        131233,
+        131436,
+        131445
+    ],
+    "Dejerine-sottas_syndrome,_sporadic": [
+        131336,
+        131368,
+        131372
+    ],
+    "Charcot-Marie-Tooth_disease_type_1B": [
+        131373,
+        131464
+    ],
+    "Charcot-Marie-Tooth_disease": [
+        131624,
+        1126370,
+        1126992,
+        1673764,
+        1674247
+    ],
+    "Neutrophil-specific_antigens_NA1/NA2": [
+        132492,
+        132497,
+        132499,
+        132501
+    ],
+    "Trimethylaminuria": [
+        136085,
+        136091,
+        136119
+    ],
+    "Trimethylaminuria,_mild": [
+        136085,
+        136119
+    ],
+    "Leukoencephalopathy_with_brain_stem_and_spinal_cord_involvement-high_lactate_syndrome": [
+        137326,
+        137368
+    ],
+    "Hereditary_antithrombin_deficiency": [
+        137760,
+        137807
+    ],
+    "Nephrotic_syndrome,_type_2": [
+        139095,
+        139096
+    ],
+    "Developmental_and_epileptic_encephalopathy,_69": [
+        140635,
+        140636
+    ],
+    "Granulomatous_disease,_chronic,_autosomal_recessive,_cytochrome_b-positive,_type_2": [
+        143616,
+        143617
+    ],
+    "Microcephaly_5,_primary,_autosomal_recessive": [
+        149348,
+        149686,
+        150478,
+        150620
+    ],
+    "Chitotriosidase_deficiency": [
+        158118,
+        158121,
+        158136
+    ],
+    "Systemic_lupus_erythematosus,_susceptibility_to,_9": [
+        161032,
+        161386,
+        161404
+    ],
+    "Cortisone_reductase_deficiency_2": [
+        163539,
+        163540
+    ],
+    "Zimmermann-Laband_syndrome_1": [
+        164401,
+        164421
+    ],
+    "Retinitis_pigmentosa_39": [
+        166783,
+        167380,
+        168045,
+        171820
+    ],
+    "Usher_syndrome_type_2A": [
+        168169,
+        171422,
+        172016,
+        172409
+    ],
+    "Nonsyndromic_genetic_hearing_loss": [
+        172015,
+        173383
+    ],
+    "Autosomal_recessive_ataxia_due_to_ubiquinone_deficiency": [
+        178462,
+        178678
+    ],
+    "Multiple_mitochondrial_dysfunctions_syndrome_3": [
+        179415,
+        179570
+    ],
+    "C1orf69-Related_Disorders": [
+        179465,
+        179472
+    ],
+    "Congenital_myopathy_2c,_severe_infantile,_autosomal_dominant": [
+        183285,
+        183287
+    ],
+    "Hemoglobin,_high_altitude_adaptation": [
+        185149,
+        185418
+    ],
+    "Schizophrenia_9": [
+        185522,
+        185544
+    ],
+    "Muscular_dystrophy-dystroglycanopathy_(congenital_with_brain_and_eye_anomalies),_type_a,_11": [
+        186805,
+        186936
+    ],
+    "Autosomal_recessive_nonsyndromic_hearing_loss_9": [
+        219264,
+        219291,
+        219442,
+        219471
+    ],
+    "3-Oxo-5_alpha-steroid_delta_4-dehydrogenase_deficiency": [
+        231712,
+        231714,
+        231718,
+        231743,
+        231803
+    ],
+    "Holoprosencephaly_2": [
+        240839,
+        240871
+    ],
+    "Multiple_gastrointestinal_atresias": [
+        243216,
+        243288,
+        243345,
+        243515
+    ],
+    "Lynch_syndrome": [
+        250445,
+        250449,
+        257470,
+        257790,
+        447986,
+        448196
+    ],
+    "Lynch_syndrome_1": [
+        250445,
+        250449,
+        446884,
+        447113
+    ],
+    "Hereditary_nonpolyposis_colon_cancer": [
+        257470,
+        257790
+    ],
+    "Autosomal_recessive_limb-girdle_muscular_dystrophy_type_2B": [
+        270907,
+        271317,
+        271578,
+        271823,
+        272395,
+        272446,
+        272642
+    ],
+    "Distal_myopathy_with_anterior_tibial_onset": [
+        271823,
+        272642
+    ],
+    "Miyoshi_muscular_dystrophy_1": [
+        271823,
+        272642
+    ],
+    "Alstrom_syndrome": [
+        275678,
+        276682
+    ],
+    "MOGS-congenital_disorder_of_glycosylation": [
+        281843,
+        281889
+    ],
+    "Mitochondrial_DNA_depletion_syndrome_9": [
+        282986,
+        283089
+    ],
+    "IMMUNOGLOBULIN_KAPPA_LIGHT_CHAIN_POLYMORPHISM_Inv3": [
+        287298,
+        287300
+    ],
+    "IMMUNOGLOBULIN_KAPPA_LIGHT_CHAIN_POLYMORPHISM_Inv1": [
+        287299,
+        287301
+    ],
+    "IMMUNOGLOBULIN_KAPPA_LIGHT_CHAIN_POLYMORPHISM_Inv2": [
+        287299,
+        287300
+    ],
+    "Lipoyl_transferase_1_deficiency": [
+        291724,
+        291769,
+        291776,
+        291788
+    ],
+    "KINSSHIP_syndrome": [
+        291936,
+        291952
+    ],
+    "Rothmund-Thomson_syndrome_type_1": [
+        296920,
+        296928,
+        296947,
+        296968
+    ],
+    "Roifman_syndrome": [
+        300168,
+        300327
+    ],
+    "Osteodysplastic_primordial_dwarfism,_type_1": [
+        300188,
+        300202
+    ],
+    "Autosomal_recessive_limb-girdle_muscular_dystrophy_type_2W": [
+        302254,
+        302258
+    ],
+    "Congenital_disorders_of_glycosylation_type_II": [
+        302825,
+        1851486,
+        1851515
+    ],
+    "Nemaline_myopathy_2": [
+        314175,
+        314261
+    ],
+    "SLC4A10-related_neurodevelopmental_disorder": [
+        318949,
+        318982
+    ],
+    "Episodic_ataxia,_type_9": [
+        323433,
+        323777
+    ],
+    "Asphyxiating_thoracic_dystrophy_4": [
+        324427,
+        324585
+    ],
+    "Small_fiber_neuropathy": [
+        330268,
+        330340
+    ],
+    "Congenital_muscular_dystrophy": [
+        341242,
+        341701,
+        351528,
+        357944,
+        357981,
+        358693
+    ],
+    "Autosomal_recessive_limb-girdle_muscular_dystrophy_type_2J": [
+        341574,
+        341945,
+        354478,
+        360358
+    ],
+    "Early-onset_myopathy_with_fatal_cardiomyopathy": [
+        341574,
+        341945,
+        351119,
+        352804
+    ],
+    "Neuromuscular_disease": [
+        341861,
+        349397
+    ],
+    "Congenital_myopathy": [
+        342903,
+        352788
+    ],
+    "Dilated_cardiomyopathy_1G": [
+        353358,
+        356929
+    ],
+    "Hypertrophic_cardiomyopathy_9": [
+        353358,
+        356929
+    ],
+    "Retinitis_pigmentosa_26": [
+        369314,
+        369384
+    ],
+    "Ehlers-Danlos_syndrome,_type_4": [
+        371748,
+        372906
+    ],
+    "Perrault_syndrome": [
+        378536,
+        2177561
+    ],
+    "Infantile-onset_ascending_hereditary_spastic_paralysis": [
+        380116,
+        380548
+    ],
+    "ALS2-Related_Disorders": [
+        380239,
+        380251,
+        380256,
+        380558
+    ],
+    "Acquired_immunodeficiency_syndrome,_slow_progression_to": [
+        395113
+    ],
+    "Neurodevelopmental_disorder_with_impaired_speech_and_hyperkinetic_movements": [
+        395924,
+        395925
+    ],
+    "Cholestanol_storage_disease": [
+        396915,
+        397116
+    ],
+    "Odonto-onycho-dermal_dysplasia": [
+        397761,
+        397824
+    ],
+    "3M_syndrome_2": [
+        402903,
+        402983,
+        403077
+    ],
+    "Autosomal_recessive_Alport_syndrome": [
+        405879,
+        406278,
+        407215,
+        407724,
+        407736,
+        408313
+    ],
+    "Distal_arthrogryposis_type_5D": [
+        413580,
+        413581,
+        413588,
+        413620,
+        413621,
+        413636
+    ],
+    "Myasthenic_syndrome,_congenital,_1B,_fast-channel": [
+        413822,
+        414164
+    ],
+    "Bethlem_myopathy_1": [
+        417207,
+        417560
+    ],
+    "Primary_hyperoxaluria,_type_I": [
+        424140,
+        424146,
+        424453,
+        424455
+    ],
+    "Von_Hippel-Lindau_syndrome": [
+        433891,
+        433923
+    ],
+    "Xeroderma_pigmentosum,_group_C": [
+        438999
+    ],
+    "Biotinidase_deficiency": [
+        440631,
+        440823,
+        440868
+    ],
+    "Mucopolysaccharidosis,_MPS-IV-B": [
+        445269,
+        445352
+    ],
+    "Infantile_GM1_gangliosidosis": [
+        445697,
+        445722,
+        445748,
+        445836
+    ],
+    "Brugada_syndrome_1": [
+        453388,
+        453951,
+        454074,
+        455723
+    ],
+    "Progressive_familial_heart_block,_type_1A": [
+        455166,
+        455249
+    ],
+    "Abnormality_of_neuronal_migration": [
+        457164,
+        457763,
+        734256,
+        734336,
+        911379,
+        911444,
+        919431,
+        921373,
+        1016329,
+        1017345,
+        1288176,
+        1288191,
+        1667758,
+        1667759,
+        2067430,
+        2067585
+    ],
+    "Age_related_macular_degeneration_12": [
+        459427,
+        459433
+    ],
+    "Coronary_artery_disease,_resistance_to": [
+        459427,
+        459433
+    ],
+    "Human_immunodeficiency_virus_type_1,_rapid_progression_to_AIDS": [
+        459427,
+        459433
+    ],
+    "Perrault_syndrome_4": [
+        462953,
+        463107
+    ],
+    "Recessive_dystrophic_epidermolysis_bullosa": [
+        471589,
+        472367
+    ],
+    "Parkinsonism_with_polyneuropathy": [
+        472598,
+        472599
+    ],
+    "LAMB2-related_infantile-onset_nephrotic_syndrome": [
+        474522,
+        474579,
+        474586,
+        474992
+    ],
+    "Pierson_syndrome": [
+        474640,
+        475054
+    ],
+    "Muscular_dystrophy-dystroglycanopathy_(congenital_with_intellectual_disability),_type_B14": [
+        477017,
+        477057
+    ],
+    "INTER-ALPHA-TRYPSIN_INHIBITOR,_HEAVY_CHAIN_1_POLYMORPHISM": [
+        485939,
+        485940,
+        485941,
+        485942
+    ],
+    "Progressive_myoclonic_epilepsy_type_5": [
+        492971,
+        492978
+    ],
+    "Intellectual_disability": [
+        502547,
+        502589,
+        846522,
+        848004,
+        1021650,
+        1021653,
+        1021670,
+        1021676,
+        2327668,
+        2327718
+    ],
+    "Primrose_syndrome": [
+        502547,
+        502589
+    ],
+    "Oroticaciduria": [
+        512823,
+        512894
+    ],
+    "Acyl-CoA_dehydrogenase_9_deficiency": [
+        516008,
+        516010,
+        516065,
+        516131,
+        516263,
+        516362,
+        516375,
+        516388,
+        516447,
+        516454,
+        516486,
+        516585,
+        516598,
+        516607,
+        516608,
+        516724
+    ],
+    "Nephronophthisis_3": [
+        519828,
+        520138
+    ],
+    "Hepatoencephalopathy_due_to_combined_oxidative_phosphorylation_defect_type_1": [
+        533422,
+        533689
+    ],
+    "Postanesthetic_apnea": [
+        535652,
+        535746
+    ],
+    "Cowden_syndrome_5": [
+        539596,
+        539612
+    ],
+    "Neurodevelopmental_disorder": [
+        545113,
+        545133
+    ],
+    "Glaucoma,_normal_tension,_susceptibility_to": [
+        548003,
+        548009
+    ],
+    "Hurler_syndrome": [
+        554526,
+        555025
+    ],
+    "Achondroplasia": [
+        556153,
+        556156
+    ],
+    "Thanatophoric_dysplasia_type_1": [
+        556255,
+        556310
+    ],
+    "Lopes-Maciel-Rodan_syndrome": [
+        558680,
+        558884
+    ],
+    "Congenital_myasthenic_syndrome_10": [
+        559781,
+        559782
+    ],
+    "Wolfram_syndrome_1": [
+        564513,
+        564832
+    ],
+    "Lazy_leukocyte_syndrome": [
+        566746,
+        566747
+    ],
+    "Joubert_syndrome_9": [
+        568550,
+        568707
+    ],
+    "Cranioectodermal_dysplasia_4": [
+        573339,
+        573389
+    ],
+    "Retinitis_pigmentosa_49": [
+        577694,
+        577755
+    ],
+    "Hypogonadotropic_hypogonadism_7_with_or_without_anosmia": [
+        586555,
+        586583
+    ],
+    "HIS2*1/HIS2*2_POLYMORPHISM": [
+        587232,
+        587234
+    ],
+    "ALBUMIN_REDHILL": [
+        588195
+    ],
+    "Dystonia_37,_early-onset,_with_striatal_lesions": [
+        588707,
+        588708
+    ],
+    "SLC39A8-CDG": [
+        598461,
+        598462,
+        598499,
+        598551,
+        598553
+    ],
+    "Sebaceous_tumors,_somatic": [
+        602263,
+        602264
+    ],
+    "Pregnancy_loss,_recurrent,_susceptibility_to,_3": [
+        609030,
+        609031,
+        609032,
+        609033
+    ],
+    "Multiple_acyl-CoA_dehydrogenase_deficiency": [
+        622632,
+        622688
+    ],
+    "Short-rib_thoracic_dysplasia_6_with_or_without_polydactyly": [
+        625523,
+        625657
+    ],
+    "Immunodeficiency_83,_susceptibility_to_viral_infections": [
+        629412,
+        629439
+    ],
+    "Mitochondrial_complex_II_deficiency,_nuclear_type_1": [
+        632273,
+        633632
+    ],
+    "Pulmonary_fibrosis_and/or_bone_marrow_failure,_Telomere-related,_1": [
+        636272,
+        636487
+    ],
+    "Primary_ciliary_dyskinesia_3": [
+        643898,
+        644840
+    ],
+    "Oculocutaneous_albinism_type_4": [
+        648977,
+        649264
+    ],
+    "Immunodeficiency_104": [
+        650359,
+        650367,
+        650396,
+        650470
+    ],
+    "Joubert_syndrome_17": [
+        653343,
+        653970,
+        654119,
+        654255
+    ],
+    "Orofaciodigital_syndrome_type_6": [
+        653343,
+        654255
+    ],
+    "Succinyl-CoA_acetoacetate_transferase_deficiency": [
+        657437,
+        657453
+    ],
+    "Statins,_attenuated_cholesterol_lowering_by": [
+        667792,
+        667812
+    ],
+    "Mucopolysaccharidosis,_type_vi,_severe": [
+        670011,
+        670021
+    ],
+    "Gastric_adenocarcinoma_and_proximal_polyposis_of_the_stomach": [
+        686056,
+        686219
+    ],
+    "Bifunctional_peroxisomal_enzyme_deficiency": [
+        699573,
+        699908
+    ],
+    "Lattice_corneal_dystrophy_Type_I": [
+        713705,
+        713709
+    ],
+    "Hyperekplexia_1": [
+        734566,
+        734644,
+        734707,
+        734785,
+        734840,
+        734846
+    ],
+    "Acute_myeloid_leukemia": [
+        745959,
+        745960
+    ],
+    "Myelodysplasia": [
+        745959,
+        745960
+    ],
+    "Hyperparathyroidism_4": [
+        758535,
+        758560
+    ],
+    "Thiopurine_methyltransferase_deficiency": [
+        760254,
+        760264
+    ],
+    "Vancomycin_response": [
+        763604,
+        763605,
+        763607,
+        763608,
+        763609,
+        763610,
+        763611,
+        763612,
+        763613,
+        763614,
+        763615,
+        763616,
+        763618,
+        763620,
+        763621,
+        763622,
+        763623,
+        763624,
+        763625,
+        763626,
+        763627,
+        763628,
+        763629,
+        763630,
+        763631,
+        763632,
+        763633,
+        763635,
+        763636,
+        763638,
+        763639,
+        763640,
+        763641,
+        763642,
+        763643,
+        763644,
+        763645,
+        763646,
+        763647,
+        763648,
+        763649,
+        763651,
+        763652
+    ],
+    "Hereditary_spastic_paraplegia": [
+        764092,
+        764093,
+        1486314,
+        1486318,
+        1601379,
+        1601503
+    ],
+    "Sialidosis_type_2": [
+        765941,
+        765959
+    ],
+    "Classic_congenital_adrenal_hyperplasia_due_to_21-hydroxylase_deficiency": [
+        767535,
+        767600,
+        767612,
+        767636,
+        767655,
+        767657,
+        767658,
+        767675,
+        767679,
+        767686,
+        767700,
+        767704,
+        767713,
+        767766
+    ],
+    "Congenital_adrenal_hyperplasia": [
+        767655,
+        767657,
+        767658
+    ],
+    "Mitochondrial_complex_III_deficiency_nuclear_type_7": [
+        775302,
+        775303
+    ],
+    "Sulfite_oxidase_deficiency_due_to_molybdenum_cofactor_deficiency_type_A": [
+        780147,
+        780193
+    ],
+    "Peroxisome_biogenesis_disorder_4B": [
+        782431,
+        782614
+    ],
+    "3M_syndrome_1": [
+        784294,
+        784314,
+        784509,
+        784669
+    ],
+    "Autosomal_recessive_nonsyndromic_hearing_loss_103": [
+        787920,
+        787940
+    ],
+    "Methylmalonic_aciduria_due_to_methylmalonyl-CoA_mutase_deficiency": [
+        788947,
+        789554
+    ],
+    "Rh-null,_regulator_type": [
+        789708,
+        789711
+    ],
+    "Myoclonic_epilepsy,_juvenile,_susceptibility_to,_1": [
+        794204,
+        794275
+    ],
+    "Retinitis_pigmentosa_25": [
+        799282,
+        801256
+    ],
+    "SLC35A1-congenital_disorder_of_glycosylation": [
+        814878,
+        814884,
+        814885
+    ],
+    "Merosin_deficient_congenital_muscular_dystrophy": [
+        829216,
+        829875,
+        830074,
+        832316,
+        832568,
+        832985
+    ],
+    "Muscular_dystrophy,_limb-girdle,_autosomal_recessive_23": [
+        829220,
+        830101,
+        830265,
+        832764
+    ],
+    "Joubert_syndrome_3": [
+        835734,
+        836014
+    ],
+    "Autosomal_recessive_spinocerebellar_ataxia_13": [
+        841211,
+        841212
+    ],
+    "Combined_oxidative_phosphorylation_defect_type_11": [
+        842484,
+        842512
+    ],
+    "Autosomal_recessive_ataxia,_Beauce_type": [
+        844206,
+        846439,
+        846581,
+        846795,
+        847502
+    ],
+    "Male_infertility_with_azoospermia_or_oligozoospermia_due_to_single_gene_mutation": [
+        852158,
+        852171
+    ],
+    "Neurodevelopmental_disorder_with_cerebellar_atrophy_and_with_or_without_seizures": [
+        858334,
+        858394
+    ],
+    "Guttmacher_syndrome": [
+        874694,
+        874807
+    ],
+    "Isolated_growth_hormone_deficiency,_type_4": [
+        876168,
+        876274
+    ],
+    "Congenital_heart_defects,_dysmorphic_facial_features,_and_intellectual_developmental_disorder": [
+        879362,
+        879363
+    ],
+    "Supravalvar_aortic_stenosis": [
+        892430,
+        892678
+    ],
+    "Infantile_encephalopathy": [
+        894009,
+        894155
+    ],
+    "Coronary_heart_disease,_susceptibility_to,_7": [
+        895658,
+        895659,
+        895784,
+        895831
+    ],
+    "Progressive_familial_intrahepatic_cholestasis_type_3": [
+        900458,
+        900559
+    ],
+    "Ataxia-pancytopenia_syndrome": [
+        907429,
+        907755
+    ],
+    "Osteogenesis_imperfecta_with_normal_sclerae,_dominant_form": [
+        909106,
+        909333
+    ],
+    "Neonatal_intrahepatic_cholestasis_due_to_citrin_deficiency": [
+        910674,
+        910676
+    ],
+    "Platelet_abnormalities_with_eosinophilia_and_immune-mediated_inflammatory_disease": [
+        913775
+    ],
+    "Autosomal_recessive_nonsyndromic_hearing_loss_4": [
+        925179,
+        925280,
+        925685,
+        925691
+    ],
+    "Pendred_syndrome": [
+        926019,
+        926104
+    ],
+    "Cystic_fibrosis": [
+        932342,
+        932344,
+        932754,
+        933462,
+        933466,
+        933612,
+        933614,
+        933648,
+        933649,
+        933751,
+        933816,
+        933838,
+        933952,
+        933954,
+        934223,
+        934443,
+        934999,
+        935070,
+        935096,
+        935325,
+        935443,
+        935671,
+        935672,
+        935902,
+        935919,
+        935991,
+        935994
+    ],
+    "Primary_dilated_cardiomyopathy": [
+        941103,
+        942502
+    ],
+    "Neurodevelopmental_disorder_with_brain_malformations_and_multiple_congenital_anomalies": [
+        947868,
+        947875
+    ],
+    "Metabolic_syndrome,_susceptibility_to": [
+        961203,
+        961214
+    ],
+    "Neuronal_ceroid_lipofuscinosis_8": [
+        967366,
+        967370,
+        967558,
+        967673
+    ],
+    "NAT1*10_ALLELE": [
+        974419,
+        974420
+    ],
+    "Atrichia_with_papular_lesions": [
+        976043,
+        976046
+    ],
+    "Non-obstructive_azoospermia": [
+        981411,
+        981458,
+        1914851,
+        1914937
+    ],
+    "Werner_syndrome": [
+        981894,
+        981904
+    ],
+    "Hypogonadotropic_hypogonadism_2_with_or_without_anosmia": [
+        986251,
+        986253
+    ],
+    "Cerebral_palsy": [
+        1004077,
+        1004106,
+        1581615,
+        1582207
+    ],
+    "Charcot-Marie-Tooth_disease_axonal_type_2K": [
+        1005763,
+        1005876
+    ],
+    "Charcot-Marie-Tooth_disease_recessive_intermediate_A": [
+        1005763,
+        1005876
+    ],
+    "Charcot-Marie-Tooth_disease_type_4A": [
+        1005763,
+        1005876
+    ],
+    "Charcot-Marie-Tooth_disease,_axonal,_with_vocal_cord_paresis,_autosomal_recessive": [
+        1005763,
+        1005876
+    ],
+    "Achromatopsia_3": [
+        1008449,
+        1008453
+    ],
+    "Microcephaly,_normal_intelligence_and_immunodeficiency": [
+        1010350,
+        1010656
+    ],
+    "Joubert_syndrome_6": [
+        1012630,
+        1012789
+    ],
+    "Leigh_syndrome": [
+        1013508,
+        1013570
+    ],
+    "Cohen_syndrome": [
+        1015288,
+        1018282
+    ],
+    "Long_QT_syndrome": [
+        1020613,
+        1020632,
+        1391459,
+        1391481,
+        1524928,
+        1525008
+    ],
+    "Cerebellar_atrophy": [
+        1021650,
+        1021653,
+        1021670,
+        1021676
+    ],
+    "Seizure": [
+        1021650,
+        1021653,
+        1021670,
+        1021676,
+        1632537,
+        1632569
+    ],
+    "Congenital_cerebellar_hypoplasia": [
+        1021653,
+        1021676
+    ],
+    "Autistic_behavior": [
+        1029296,
+        1029494
+    ],
+    "Intellectual_disability,_autosomal_recessive_13": [
+        1029296,
+        1029494
+    ],
+    "Deficiency_of_steroid_11-beta-monooxygenase": [
+        1030814,
+        1030822
+    ],
+    "Corticosterone_18-monooxygenase_deficiency": [
+        1031325,
+        1031514
+    ],
+    "Corticosterone_methyloxidase_type_2_deficiency": [
+        1031325,
+        1031531
+    ],
+    "Rothmund-Thomson_syndrome_type_2": [
+        1044251,
+        1045393
+    ],
+    "Nicolaides-Baraitser_syndrome": [
+        1050167,
+        1050236
+    ],
+    "Liver_disease,_severe_congenital": [
+        1058663,
+        1058754
+    ],
+    "Deficiency_of_UDPglucose-hexose-1-phosphate_uridylyltransferase": [
+        1064630,
+        1064649,
+        1064871,
+        1064895,
+        1065015,
+        1065101,
+        1065164
+    ],
+    "GALT_POLYMORPHISM_(LOS_ANGELES,_D1)": [
+        1065015,
+        1065164
+    ],
+    "GNE_myopathy": [
+        1070675,
+        1071269
+    ],
+    "Primary_hyperoxaluria,_type_II": [
+        1071702,
+        1071704,
+        1071809
+    ],
+    "Autosomal_recessive_nonsyndromic_hearing_loss_7": [
+        1074503,
+        1074582,
+        1074587,
+        1074704,
+        1074710
+    ],
+    "Leukopenia": [
+        1090182,
+        1090298
+    ],
+    "Thrombocytopenia": [
+        1090182,
+        1090298
+    ],
+    "Bone_marrow_hypocellularity": [
+        1090313,
+        1090370
+    ],
+    "Pancytopenia": [
+        1090313,
+        1090370
+    ],
+    "Testosterone_17-beta-dehydrogenase_deficiency": [
+        1090566,
+        1090576
+    ],
+    "Nicotine_dependence,_protection_against": [
+        1091971,
+        1092051,
+        1092314,
+        1092390
+    ],
+    "Tobacco_addiction,_susceptibility_to": [
+        1091972,
+        1092051,
+        1092160,
+        1092313,
+        1092358,
+        1092390,
+        1092391
+    ],
+    "Infantile_nephronophthisis": [
+        1095449,
+        1095455
+    ],
+    "Steel_syndrome": [
+        1103717,
+        1104447
+    ],
+    "OROSOMUCOID_POLYMORPHISM": [
+        1105149,
+        1105150,
+        1105154,
+        1105155
+    ],
+    "Corpus_callosum,_agenesis_of": [
+        1107426,
+        1107803,
+        1987841,
+        1987847
+    ],
+    "Premature_ovarian_failure_7": [
+        1110432,
+        1110434
+    ],
+    "Spermatogenic_failure_8": [
+        1110432,
+        1110434
+    ],
+    "Neonatal_encephalomyopathy-cardiomyopathy-respiratory_distress_syndrome": [
+        1115988,
+        1116097,
+        1116102
+    ],
+    "Cognitive_impairment": [
+        1116074,
+        1116089
+    ],
+    "Dysmetria": [
+        1116074,
+        1116089,
+        1116167,
+        1116199
+    ],
+    "Gait_ataxia": [
+        1116074,
+        1116089
+    ],
+    "Progressive_spastic_paraparesis": [
+        1116074,
+        1116089
+    ],
+    "Cerebellar_ataxia": [
+        1116167,
+        1116199,
+        1965296,
+        1965362
+    ],
+    "Drooling": [
+        1116167,
+        1116199
+    ],
+    "Hypotonia": [
+        1116167,
+        1116199
+    ],
+    "Mild_global_developmental_delay": [
+        1116167,
+        1116199
+    ],
+    "Postural_instability": [
+        1116167,
+        1116199
+    ],
+    "Citrullinemia_type_I": [
+        1121391,
+        1121738
+    ],
+    "Muscular_dystrophy-dystroglycanopathy_(congenital_with_brain_and_eye_anomalies),_type_A1": [
+        1124695,
+        1125342
+    ],
+    "Spinocerebellar_ataxia,_autosomal_recessive,_with_axonal_neuropathy_2": [
+        1125782,
+        1125990,
+        1126362,
+        1126663,
+        1126691,
+        1126837
+    ],
+    "ABO_blood_group_system": [
+        1131677,
+        1131678,
+        1131679,
+        1131680,
+        1131681,
+        1131682,
+        1131684,
+        1131688,
+        1131690,
+        1131693
+    ],
+    "Severely_weakened_expression_of_B_on_erythrocytes": [
+        1131679,
+        1131680,
+        1131681,
+        1131682,
+        1131684,
+        1131687,
+        1131688,
+        1131689,
+        1131694,
+        1131711,
+        1131712
+    ],
+    "Upshaw-Schulman_syndrome": [
+        1132489,
+        1132524
+    ],
+    "Orthostatic_hypotension_1": [
+        1133271,
+        1133428
+    ],
+    "Rod-cone_dystrophy": [
+        1140299,
+        1140729
+    ],
+    "2-aminoadipic_2-oxoadipic_aciduria": [
+        1154178,
+        1154194
+    ],
+    "Multiple_endocrine_neoplasia,_type_2a": [
+        1167629,
+        1167630,
+        1167634
+    ],
+    "Medullary_thyroid_carcinoma": [
+        1168082,
+        1168432
+    ],
+    "Multiple_endocrine_neoplasia,_type_2b": [
+        1168082,
+        1168326
+    ],
+    "Cerebrooculofacioskeletal_syndrome_1": [
+        1171835,
+        1171885
+    ],
+    "Hearing_loss,_autosomal_recessive": [
+        1175727,
+        1937945
+    ],
+    "Congenital_hypomyelinating_neuropathy_1,_autosomal_dominant": [
+        1178690,
+        1178692
+    ],
+    "Pterin-4_alpha-carbinolamine_dehydratase_1_deficiency": [
+        1186083,
+        1186110
+    ],
+    "Neonatal_pseudo-hydrocephalic_progeroid_syndrome": [
+        1197329,
+        1197647
+    ],
+    "Leukoencephalopathy-ataxia-hypodontia-hypomyelination_syndrome": [
+        1197499,
+        1197958
+    ],
+    "Nephrotic_syndrome,_type_3": [
+        1212812,
+        1212859
+    ],
+    "CYP2C19:_normal_function": [
+        1213225,
+        1213226,
+        1213227,
+        1213235,
+        1213268
+    ],
+    "Citalopram_response": [
+        1213225,
+        1213226,
+        1213227,
+        1213228,
+        1213229,
+        1213230,
+        1213231,
+        1213232,
+        1213233,
+        1213234,
+        1213235,
+        1213236,
+        1213238,
+        1213239,
+        1213240,
+        1213242,
+        1213243,
+        1213244,
+        1213245,
+        1213247,
+        1213249,
+        1213250,
+        1213251,
+        1213252,
+        1213255,
+        1213257,
+        1213258,
+        1213260,
+        1213261,
+        1213262,
+        1213264,
+        1213268,
+        1213271,
+        1213272,
+        1213274,
+        1213275,
+        1213276,
+        1213278
+    ],
+    "Escitalopram_response": [
+        1213225,
+        1213226,
+        1213227,
+        1213228,
+        1213229,
+        1213230,
+        1213231,
+        1213232,
+        1213233,
+        1213234,
+        1213235,
+        1213236,
+        1213238,
+        1213239,
+        1213240,
+        1213242,
+        1213243,
+        1213244,
+        1213245,
+        1213247,
+        1213249,
+        1213250,
+        1213251,
+        1213252,
+        1213255,
+        1213257,
+        1213258,
+        1213260,
+        1213261,
+        1213262,
+        1213264,
+        1213268,
+        1213271,
+        1213272,
+        1213274,
+        1213275,
+        1213276,
+        1213278
+    ],
+    "Sertraline_response": [
+        1213225,
+        1213226,
+        1213227,
+        1213228,
+        1213229,
+        1213230,
+        1213231,
+        1213232,
+        1213233,
+        1213234,
+        1213235,
+        1213236,
+        1213238,
+        1213239,
+        1213240,
+        1213242,
+        1213243,
+        1213244,
+        1213245,
+        1213247,
+        1213249,
+        1213250,
+        1213251,
+        1213252,
+        1213255,
+        1213257,
+        1213258,
+        1213260,
+        1213261,
+        1213262,
+        1213264,
+        1213268,
+        1213271,
+        1213272,
+        1213274,
+        1213275,
+        1213276,
+        1213278
+    ],
+    "Voriconazole_response": [
+        1213225,
+        1213226,
+        1213227,
+        1213228,
+        1213229,
+        1213230,
+        1213231,
+        1213232,
+        1213233,
+        1213234,
+        1213235,
+        1213236,
+        1213238,
+        1213239,
+        1213240,
+        1213242,
+        1213243,
+        1213244,
+        1213245,
+        1213247,
+        1213249,
+        1213250,
+        1213251,
+        1213252,
+        1213255,
+        1213257,
+        1213258,
+        1213260,
+        1213261,
+        1213262,
+        1213264,
+        1213268,
+        1213271,
+        1213272,
+        1213274,
+        1213275,
+        1213276,
+        1213278
+    ],
+    "CYP2C19:_no_function": [
+        1213229,
+        1213231,
+        1213244,
+        1213258,
+        1213264,
+        1213271
+    ],
+    "Clopidogrel_response": [
+        1213229,
+        1213231,
+        1213244,
+        1213245,
+        1213247,
+        1213255,
+        1213258,
+        1213261,
+        1213274
+    ],
+    "CYP2C19:_uncertain_function": [
+        1213230,
+        1213232,
+        1213233
+    ],
+    "Warfarin_response": [
+        1213286,
+        1213287,
+        1213298,
+        1213299
+    ],
+    "CYP2C8_HAPLOTYPE_POLYMORPHISM": [
+        1213308,
+        1213328
+    ],
+    "Spermatogenic_failure_12": [
+        1230911,
+        1230915
+    ],
+    "CARASIL_syndrome": [
+        1233487,
+        1233615
+    ],
+    "CYP2E1*5B_ALLELE": [
+        1237671,
+        1237672
+    ],
+    "Long_QT_syndrome_1": [
+        1246615,
+        1247121
+    ],
+    "HEMOGLOBIN_KOCHI": [
+        1250839,
+        1250856
+    ],
+    "HEMOGLOBIN_S_(TRAVIS)": [
+        1250849,
+        1252169
+    ],
+    "Dominant_beta-thalassemia": [
+        1250873,
+        1250904
+    ],
+    "beta_Thalassemia": [
+        1250873,
+        1250904,
+        1251008,
+        1251013,
+        1252179,
+        1252190
+    ],
+    "HEMOGLOBIN_CASABLANCA": [
+        1250936,
+        1251745
+    ],
+    "HEMOGLOBIN_CLEVELAND": [
+        1250941,
+        1251599
+    ],
+    "HEMOGLOBIN_D_(AGRI)": [
+        1250941,
+        1252149
+    ],
+    "HEMOGLOBIN_T_(CAMBODIA)": [
+        1250941,
+        1252062
+    ],
+    "HEMOGLOBIN_O_(TIBESTI)": [
+        1250942,
+        1252137
+    ],
+    "Sickle_cell-Hemoglobin_O_Arab_disease": [
+        1250942,
+        1252169
+    ],
+    "HEMOGLOBIN_FANNIN-LUBBOCK": [
+        1250950,
+        1250978
+    ],
+    "HEMOGLOBIN_MASUDA": [
+        1250950,
+        1250968
+    ],
+    "HEMOGLOBIN_DUINO": [
+        1251534,
+        1251605
+    ],
+    "HEMOGLOBIN_MEDICINE_LAKE": [
+        1251572,
+        1251910
+    ],
+    "HEMOGLOBIN_ARLINGTON_PARK": [
+        1251589,
+        1252175
+    ],
+    "HEMOGLOBIN_S_(CAMEROON)": [
+        1251620,
+        1252169
+    ],
+    "HEMOGLOBIN_POISSY": [
+        1251642,
+        1251786
+    ],
+    "HEMOGLOBIN_S_(PROVIDENCE)": [
+        1251662,
+        1252169
+    ],
+    "HEMOGLOBIN_ZIGUINCHOR": [
+        1251715,
+        1251778,
+        1252169
+    ],
+    "HEMOGLOBIN_JAMAICA_PLAIN": [
+        1251733,
+        1252169
+    ],
+    "HEMOGLOBIN_GRENOBLE": [
+        1251805,
+        1251809
+    ],
+    "HEMOGLOBIN_S_(ANTILLES)": [
+        1252082,
+        1252169
+    ],
+    "HEMOGLOBIN_F_(CHARLOTTE)": [
+        1252373,
+        1252384
+    ],
+    "HEMOGLOBIN_F_(PORTO_TORRES)": [
+        1252374,
+        1252384
+    ],
+    "Niemann-Pick_disease,_type_B": [
+        1253694,
+        1253725
+    ],
+    "Autosomal_recessive_limb-girdle_muscular_dystrophy_type_2L": [
+        1270067,
+        1270090,
+        1270563
+    ],
+    "Gnathodiaphyseal_dysplasia": [
+        1270067,
+        1270563
+    ],
+    "Miyoshi_muscular_dystrophy_3": [
+        1270067,
+        1270090,
+        1270563
+    ],
+    "Combined_immunodeficiency_with_skin_granulomas": [
+        1275968,
+        1276133,
+        1276190,
+        1276226,
+        1276236,
+        1276244
+    ],
+    "Severe_combined_immunodeficiency,_autosomal_recessive,_T_cell-negative,_B_cell-negative,_NK_cell-positive": [
+        1276044,
+        1276092,
+        1276163,
+        1276180,
+        1276186,
+        1276520,
+        1276883
+    ],
+    "Combined_immunodeficiency_due_to_partial_RAG1_deficiency": [
+        1276089,
+        1276190
+    ],
+    "Seizures-scoliosis-macrocephaly_syndrome": [
+        1277099,
+        1277105
+    ],
+    "Congenital_myasthenic_syndrome_4C": [
+        1285369,
+        1285506
+    ],
+    "Fetal_akinesia_deformation_sequence_1": [
+        1285369,
+        1285506
+    ],
+    "Muscular_dystrophy-dystroglycanopathy_(congenital_with_brain_and_eye_anomalies),_type_A13": [
+        1305017,
+        1305024
+    ],
+    "Pyruvate_carboxylase_deficiency": [
+        1307897,
+        1307898
+    ],
+    "Somatotroph_adenoma": [
+        1309281,
+        1309283,
+        1310026,
+        1310027
+    ],
+    "GLUTATHIONE_S-TRANSFERASE_PI_POLYMORPHISM,_TYPE_A": [
+        1310294,
+        1310298
+    ],
+    "GLUTATHIONE_S-TRANSFERASE_PI_POLYMORPHISM,_TYPE_B": [
+        1310295,
+        1310298
+    ],
+    "GLUTATHIONE_S-TRANSFERASE_PI_POLYMORPHISM,_TYPE_C": [
+        1310295,
+        1310299
+    ],
+    "Autosomal_recessive_distal_spinal_muscular_atrophy_1": [
+        1315174,
+        1315391
+    ],
+    "FADD-related_immunodeficiency": [
+        1316535,
+        1316580
+    ],
+    "Autosomal_recessive_nonsyndromic_hearing_loss_63": [
+        1318258,
+        2225821
+    ],
+    "Opsismodysplasia": [
+        1318580,
+        1318582,
+        1318669,
+        1318677,
+        1318713,
+        1318781,
+        1318851,
+        1318859
+    ],
+    "Autosomal_recessive_nonsyndromic_hearing_loss_2": [
+        1322913,
+        1323981
+    ],
+    "Usher_syndrome_type_1": [
+        1324594,
+        1324597,
+        1324890,
+        1325551
+    ],
+    "Papillon-Lefèvre_syndrome": [
+        1328891,
+        1329010,
+        1329019,
+        1329123
+    ],
+    "Tyrosinase-negative_oculocutaneous_albinism": [
+        1329314,
+        1329436,
+        1329667,
+        1329688
+    ],
+    "Oculocutaneous_albinism_type_1B": [
+        1329436,
+        1329667
+    ],
+    "Ataxia-telangiectasia-like_disorder_1": [
+        1332360,
+        1332624
+    ],
+    "Amelogenesis_imperfecta_hypomaturation_type_2A2": [
+        1334827,
+        1334851
+    ],
+    "Asphyxiating_thoracic_dystrophy_3": [
+        1336074,
+        1336197,
+        1336451,
+        1337004
+    ],
+    "Jeune_thoracic_dystrophy": [
+        1336197,
+        1336768,
+        1337004,
+        1337250
+    ],
+    "Ataxia-telangiectasia_syndrome": [
+        1340842,
+        1341988
+    ],
+    "APOLIPOPROTEIN_A-IV_RARE_VARIANT,_APOA4*5": [
+        1357709,
+        1357717
+    ],
+    "Hearing_loss,_autosomal_recessive_111": [
+        1361295,
+        1361309
+    ],
+    "Autosomal_dominant_nonsyndromic_hearing_loss_12": [
+        1369982,
+        1369984
+    ],
+    "Intestinal_pseudo-obstruction": [
+        1370949,
+        1370959
+    ],
+    "Severe_growth_deficiency-strabismus-extensive_dermal_melanocytosis-intellectual_disability_syndrome": [
+        1372979,
+        1373006
+    ],
+    "Pulmonary_alveolar_proteinosis": [
+        1433087,
+        1433114,
+        1433232
+    ],
+    "Severe_early-onset_pulmonary_alveolar_proteinosis_due_to_MARS_deficiency": [
+        1433114,
+        1433232
+    ],
+    "Vitamin_D-dependent_rickets,_type_1": [
+        1435894,
+        1435898
+    ],
+    "Fatal_mitochondrial_disease_due_to_combined_oxidative_phosphorylation_defect_type_3": [
+        1436263,
+        1436469
+    ],
+    "Joubert_syndrome_5": [
+        1445819,
+        1445821
+    ],
+    "Leber_congenital_amaurosis_10": [
+        1445819,
+        1445821
+    ],
+    "Meckel_syndrome,_type_4": [
+        1445819,
+        1445821
+    ],
+    "Senior-Loken_syndrome_6": [
+        1445819,
+        1445821
+    ],
+    "Mucolipidosis_type_II": [
+        1450319,
+        1450320,
+        1450496,
+        1450510,
+        1451140,
+        1451165
+    ],
+    "Pseudo-Hurler_polydystrophy": [
+        1450452,
+        1450534
+    ],
+    "Phenylketonuria": [
+        1452283,
+        1452302,
+        1452316,
+        1452705
+    ],
+    "Hypomyelinating_leukodystrophy_8_with_or_without_oligodontia_and-or_hypogonadotropic_hypogonadism": [
+        1453822,
+        1453879
+    ],
+    "Oculocerebrofacial_syndrome,_Kaufman_type": [
+        1455208,
+        1455323,
+        1455338,
+        1455352
+    ],
+    "Avascular_necrosis_of_femoral_head,_primary,_2": [
+        1456539,
+        1456542
+    ],
+    "Autosomal_recessive_nonsyndromic_hearing_loss_1A": [
+        1481845,
+        1482032
+    ],
+    "Autosomal_recessive_limb-girdle_muscular_dystrophy_type_2C": [
+        1483473,
+        1483476
+    ],
+    "Charlevoix-Saguenay_spastic_ataxia": [
+        1484015,
+        1484834,
+        1484972,
+        1485026
+    ],
+    "Congenital_diaphragmatic_hernia": [
+        1508932,
+        1508976
+    ],
+    "Retinitis_pigmentosa_97": [
+        1510524,
+        1510531
+    ],
+    "Wilson_disease": [
+        1516091,
+        1516251,
+        1516288,
+        1516605,
+        1517155
+    ],
+    "Bile_acid_malabsorption,_primary,_1": [
+        1525516,
+        1525533
+    ],
+    "Alpers_encephalopathy": [
+        1529908,
+        1529952
+    ],
+    "Congenital_factor_VII_deficiency": [
+        1530569,
+        1530572
+    ],
+    "Lysinuric_protein_intolerance": [
+        1535236,
+        1535311
+    ],
+    "Hypertrophic_cardiomyopathy_1": [
+        1541164,
+        1541450
+    ],
+    "Mitochondrial_complex_1_deficiency,_nuclear_type_21": [
+        1547245,
+        1547377
+    ],
+    "Mitochondrial_complex_I_deficiency": [
+        1547245,
+        1547377,
+        1954374,
+        1954377
+    ],
+    "Glycogen_storage_disease,_type_VI": [
+        1555231,
+        1555234
+    ],
+    "Platelet-type_bleeding_disorder_15": [
+        1569303,
+        1569304
+    ],
+    "Cholestasis": [
+        1569665,
+        1569676
+    ],
+    "Hepatic_fibrosis": [
+        1569665,
+        1569676
+    ],
+    "high_serum_bile_salts": [
+        1569665,
+        1569676
+    ],
+    "normal_GGT": [
+        1569665,
+        1569676
+    ],
+    "Nevus_comedonicus_syndrome": [
+        1576547,
+        1576549
+    ],
+    "Autosomal_recessive_limb-girdle_muscular_dystrophy_type_2N": [
+        1579556,
+        1579594
+    ],
+    "Alpha-1-antitrypsin_deficiency": [
+        1586651,
+        1586676,
+        1586751,
+        1586776,
+        1586821,
+        1586912,
+        1586914,
+        1586950
+    ],
+    "PI_M(NICHINAN)": [
+        1586843,
+        1586903
+    ],
+    "SKIN/HAIR/EYE_PIGMENTATION_1,_BLUE/NONBLUE_EYES": [
+        1609866,
+        1609867
+    ],
+    "Autism_spectrum_disorder": [
+        1612405,
+        1612416
+    ],
+    "Macrocephaly": [
+        1612405,
+        1612416
+    ],
+    "Ehlers-Danlos_syndrome,_musculocontractural_type_1": [
+        1620780,
+        1620782
+    ],
+    "Autosomal_recessive_limb-girdle_muscular_dystrophy_type_2A": [
+        1623583,
+        1623645,
+        1623715,
+        1624231
+    ],
+    "Autosomal_dominant_nonsyndromic_hearing_loss_16": [
+        1627648,
+        1627655
+    ],
+    "Hereditary_spastic_paraplegia_11": [
+        1628195,
+        1629723
+    ],
+    "Dystonic_disorder": [
+        1632537,
+        1632569,
+        1965290,
+        1965428
+    ],
+    "Global_developmental_delay": [
+        1632537,
+        1632569
+    ],
+    "Hearing_impairment": [
+        1632537,
+        1632569
+    ],
+    "Microcephaly": [
+        1632537,
+        1632569
+    ],
+    "Spastic_tetraparesis": [
+        1632537,
+        1632569
+    ],
+    "Visual_impairment": [
+        1632537,
+        1632569
+    ],
+    "Bartter_disease_type_1": [
+        1633107,
+        1633151,
+        1633192,
+        1633388
+    ],
+    "Microcephaly_9,_primary,_autosomal_recessive": [
+        1640071,
+        1640109
+    ],
+    "Pituitary_dependent_hypercortisolism": [
+        1640803,
+        1640804
+    ],
+    "Stuttering,_familial_persistent,_1": [
+        1641442,
+        1641539
+    ],
+    "High_density_lipoprotein_cholesterol_level_quantitative_trait_locus_12": [
+        1645907,
+        1645908
+    ],
+    "Reticulate_acropigmentation_of_Kitamura": [
+        1646147,
+        1646148
+    ],
+    "Ceroid_lipofuscinosis,_neuronal,_6A": [
+        1655170,
+        1655401
+    ],
+    "Tay-Sachs_disease,_B1_variant": [
+        1657750,
+        1657758
+    ],
+    "Sensory_ataxic_neuropathy,_dysarthria,_and_ophthalmoparesis": [
+        1673493,
+        1673580,
+        1674531,
+        1675024
+    ],
+    "Progressive_external_ophthalmoplegia_with_mitochondrial_DNA_deletions,_autosomal_recessive_1": [
+        1673580,
+        1675024
+    ],
+    "POLG-Related_Spectrum_Disorders": [
+        1674081,
+        1674599
+    ],
+    "Bloom_syndrome": [
+        1677911,
+        1678207,
+        1678980,
+        1679555,
+        1679739,
+        1679762
+    ],
+    "Osteootohepatoenteric_syndrome": [
+        1681955,
+        1681968
+    ],
+    "Arthrogryposis,_renal_dysfunction,_and_cholestasis_1": [
+        1682197,
+        1682304
+    ],
+    "alpha_Thalassemia": [
+        1688612,
+        1688777,
+        1688778
+    ],
+    "HEMOGLOBIN_J_(SINGAPORE)": [
+        1688977,
+        1688982
+    ],
+    "Epilepsy,_childhood_absence,_susceptibility_to,_6": [
+        1692969,
+        1692986
+    ],
+    "TELO2-related_intellectual_disability-neurodevelopmental_disorder": [
+        1697104,
+        1697320
+    ],
+    "Tuberous_sclerosis_syndrome": [
+        1703007,
+        1703009,
+        1707543,
+        1707701,
+        1708651,
+        1708656,
+        1709153
+    ],
+    "Tuberous_sclerosis_2": [
+        1709062,
+        1709076
+    ],
+    "Renal_cyst": [
+        1711702,
+        1711706
+    ],
+    "Polycystic_kidney_disease,_adult_type": [
+        1712008,
+        1712012,
+        1712015,
+        1712130,
+        1712192
+    ],
+    "Familial_infantile_myoclonic_epilepsy": [
+        1715257,
+        1715321,
+        1715629,
+        1715639
+    ],
+    "DOORS_syndrome": [
+        1715629,
+        1715639
+    ],
+    "Developmental_and_epileptic_encephalopathy,_16": [
+        1715629,
+        1715639
+    ],
+    "THOC6-related_developmental_delay-microcephaly-facial_dysmorphism_syndrome": [
+        1716686,
+        1716713,
+        1716717,
+        1716720,
+        1716727
+    ],
+    "Familial_Mediterranean_fever": [
+        1717024,
+        1717040,
+        1717080,
+        1717087,
+        1717349,
+        1717736
+    ],
+    "Familial_Mediterranean_fever,_autosomal_dominant": [
+        1717083,
+        1717766
+    ],
+    "Rubinstein-Taybi_syndrome_due_to_CREBBP_mutations": [
+        1721526,
+        1721527
+    ],
+    "ALG1-congenital_disorder_of_glycosylation": [
+        1724101
+    ],
+    "Rheumatoid_arthritis": [
+        1729944
+    ],
+    "Dyskeratosis_congenita": [
+        1731561,
+        1731642
+    ],
+    "Aortic_aneurysm,_familial_thoracic_4": [
+        1732603,
+        1732956,
+        1733348,
+        1733369
+    ],
+    "Leukoencephalopathy-thalamus_and_brainstem_anomalies-high_lactate_syndrome": [
+        1739945,
+        1740046
+    ],
+    "Hereditary_breast_ovarian_cancer_syndrome": [
+        1744110,
+        1744441
+    ],
+    "Spondylocostal_dysostosis_5": [
+        1750975,
+        1751144,
+        1751145
+    ],
+    "Severe_combined_immunodeficiency_due_to_CORO1A_deficiency": [
+        1751213,
+        1751377
+    ],
+    "Generalized_epilepsy_with_febrile_seizures_plus,_type_9": [
+        1753972,
+        1753973
+    ],
+    "Glycogen_storage_disease_IXb": [
+        1757526,
+        1757527
+    ],
+    "Familial_hypokalemia-hypomagnesemia": [
+        1764413,
+        1764692,
+        1764913,
+        1764929,
+        1765214,
+        1765310
+    ],
+    "LCAT_deficiency": [
+        1773796,
+        1773831
+    ],
+    "Tyrosinemia_type_II": [
+        1783104,
+        1783146
+    ],
+    "Hereditary_spastic_paraplegia_35": [
+        1785496,
+        1785512
+    ],
+    "Deafness": [
+        1786579,
+        1786593
+    ],
+    "Leukoencephalopathy": [
+        1786579,
+        1786593
+    ],
+    "Deficiency_of_malonyl-CoA_decarboxylase": [
+        1792595,
+        1792596,
+        1792600,
+        1792603,
+        1792614
+    ],
+    "Dehydrated_hereditary_stomatocytosis_with_or_without_pseudohyperkalemia_and/or_perinatal_edema": [
+        1799639,
+        1800140,
+        1800312,
+        1800328,
+        1800401
+    ],
+    "Mucopolysaccharidosis,_MPS-IV-A": [
+        1801318,
+        1801455,
+        1801755,
+        1801825
+    ],
+    "Combined_malonic_and_methylmalonic_acidemia": [
+        1802772,
+        1802774
+    ],
+    "Hereditary_spastic_paraplegia_7": [
+        1805750,
+        1805982
+    ],
+    "Distal_shortening_of_limbs": [
+        1812140
+    ],
+    "Very_long_chain_acyl-CoA_dehydrogenase_deficiency": [
+        1824628,
+        1825098,
+        1825196,
+        1825389,
+        1825524
+    ],
+    "Cone-rod_dystrophy_6": [
+        1832728,
+        1832729,
+        1832731,
+        1832736
+    ],
+    "Contractures,_pterygia,_and_spondylocarpotarsal_fusion_syndrome_1A": [
+        1839373,
+        1839375
+    ],
+    "Spondylocarpotarsal_synostosis_syndrome": [
+        1839373,
+        1839375
+    ],
+    "Ciliary_dyskinesia,_primary,_40": [
+        1840380,
+        1840700
+    ],
+    "Prune_belly_syndrome": [
+        1841187,
+        1841205
+    ],
+    "Combined_oxidative_phosphorylation_defect_type_17": [
+        1841442,
+        1841724
+    ],
+    "Multiple_fibrofolliculomas": [
+        1844414,
+        1844436
+    ],
+    "Autosomal_recessive_nonsyndromic_hearing_loss_3": [
+        1847821,
+        1847885,
+        1847938,
+        1848485,
+        1848527,
+        1848998
+    ],
+    "Sjögren-Larsson_syndrome": [
+        1850706,
+        1850750,
+        1850753,
+        1850756
+    ],
+    "Neurofibromatosis,_type_1": [
+        1857220,
+        1857834,
+        1860541,
+        1863963,
+        1863967
+    ],
+    "Lethal_congenital_contracture_syndrome_7": [
+        1882095,
+        1882190
+    ],
+    "Breast-ovarian_cancer,_familial,_susceptibility_to,_1": [
+        1884541,
+        1884556,
+        1885216,
+        1885218,
+        1894320,
+        1894388,
+        1896588,
+        1896596
+    ],
+    "Sclerosteosis_1": [
+        1897039,
+        1897040
+    ],
+    "Autosomal_dominant_distal_renal_tubular_acidosis": [
+        1898117,
+        1898129
+    ],
+    "Glanzmann_thrombasthenia": [
+        1899459,
+        1899699
+    ],
+    "Alexander_disease": [
+        1900783,
+        1900787,
+        1900880,
+        1900997
+    ],
+    "Progressive_myoclonic_epilepsy_type_6": [
+        1903813,
+        1903847
+    ],
+    "Osteogenesis_imperfecta_type_I": [
+        1910039,
+        1910050
+    ],
+    "Bardet-Biedl_syndrome_13": [
+        1913442,
+        1913622
+    ],
+    "Periodic_hyperkalemic_paralysis": [
+        1926700,
+        1926703
+    ],
+    "Amelogenesis_imperfecta_type_1G": [
+        1934657,
+        1934733
+    ],
+    "Pontocerebellar_hypoplasia_type_2A": [
+        1939084,
+        1939236
+    ],
+    "Pontocerebellar_hypoplasia_type_4": [
+        1939084,
+        1939236
+    ],
+    "Spermatogenic_failure_39": [
+        1945582,
+        1945623,
+        1945633,
+        1945825
+    ],
+    "Glycogen_storage_disease,_type_II": [
+        1948425,
+        1948435,
+        1949793,
+        1949804
+    ],
+    "Mitochondrial_DNA_depletion_syndrome_19": [
+        1954374,
+        1954377
+    ],
+    "GCGR-related_hyperglucagonemia": [
+        1954433,
+        1954468
+    ],
+    "Optic_atrophy": [
+        1965208,
+        1965290,
+        1965296,
+        1965302,
+        1965362,
+        1965428
+    ],
+    "Abnormal_cerebellum_morphology": [
+        1965290,
+        1965428
+    ],
+    "Chorea": [
+        1965296,
+        1965362
+    ],
+    "Myoclonus": [
+        1965296,
+        1965362
+    ],
+    "Spasticity": [
+        1965296,
+        1965362
+    ],
+    "Niemann-Pick_disease,_type_C1": [
+        1968106,
+        1968341,
+        1968370,
+        1968608
+    ],
+    "Amyloidogenic_transthyretin_amyloidosis": [
+        1976142,
+        1976254
+    ],
+    "Vici_syndrome": [
+        1979978,
+        1980189,
+        1980510,
+        1980540,
+        1980656,
+        1980745,
+        1980769,
+        1980849,
+        1980874,
+        1981141,
+        1981332,
+        1981333
+    ],
+    "Autosomal_recessive_nonsyndromic_hearing_loss_77": [
+        1982093,
+        1982168
+    ],
+    "Cholestasis,_progressive_familial_intrahepatic,_10": [
+        1985070,
+        1985376
+    ],
+    "Epilepsy,_idiopathic_generalized,_susceptibility_to": [
+        1985810,
+        1985811,
+        1985812,
+        1985813,
+        1985815,
+        1985821,
+        1985830,
+        1985831
+    ],
+    "Gaze_palsy,_familial_horizontal,_with_progressive_scoliosis,_2": [
+        1987856,
+        1987863
+    ],
+    "Protoporphyria,_erythropoietic,_1": [
+        1989139,
+        1989140,
+        1989141
+    ],
+    "Combined_immunodeficiency": [
+        1993152,
+        1993155
+    ],
+    "Obesity": [
+        1994288,
+        1994289
+    ],
+    "Multiple_congenital_anomalies-hypotonia-seizures_syndrome_1": [
+        1994523,
+        1994879
+    ],
+    "Choanal_atresia-hearing_loss-cardiac_defects-craniofacial_dysmorphism_syndrome": [
+        1999090,
+        1999103,
+        1999107,
+        1999112
+    ],
+    "Combined_oxidative_phosphorylation_deficiency_55": [
+        1999645,
+        1999729
+    ],
+    "Neutropenia,_severe_congenital,_1,_autosomal_dominant": [
+        2000417,
+        2000424
+    ],
+    "Recurrent_Neisseria_infections_due_to_factor_D_deficiency": [
+        2000859,
+        2000860
+    ],
+    "Cayman_type_cerebellar_ataxia": [
+        2010605,
+        2010607
+    ],
+    "Hypertriglyceridemia_2": [
+        2011863,
+        2011866
+    ],
+    "Le(-)_PHENOTYPE": [
+        2014419,
+        2014433
+    ],
+    "Insulin-resistant_diabetes_mellitus_AND_acanthosis_nigricans": [
+        2016999,
+        2017202
+    ],
+    "Rabson-Mendenhall_syndrome": [
+        2017019,
+        2017085,
+        2017088,
+        2017270
+    ],
+    "Leprechaunism_syndrome": [
+        2017154
+    ],
+    "Ataxia-hypogonadism-choroidal_dystrophy_syndrome": [
+        2019895,
+        2019947
+    ],
+    "Weill-Marchesani_syndrome_1": [
+        2023085,
+        2023119
+    ],
+    "Virus-induced_diabetes": [
+        2026796,
+        2026797,
+        2026801,
+        2026802,
+        2026803,
+        2026804
+    ],
+    "Hypercholesterolemia,_familial,_1": [
+        2033407,
+        2034004,
+        2034019,
+        2034308,
+        2034430,
+        2034444,
+        2034655,
+        2034946,
+        2035446,
+        2035836,
+        2036248,
+        2036314
+    ],
+    "Familial_hypercholesterolemia": [
+        2035446,
+        2036314,
+        2088679,
+        2088715
+    ],
+    "Homozygous_familial_hypercholesterolemia": [
+        2035446,
+        2036314
+    ],
+    "Cardiomyopathy,_dilated,_2H": [
+        2041004,
+        2041005
+    ],
+    "Marfanoid_habitus_and_intellectual_disability": [
+        2042930,
+        2042933
+    ],
+    "Marshall-Smith_syndrome": [
+        2042930,
+        2042933
+    ],
+    "T-B+_severe_combined_immunodeficiency_due_to_JAK3_deficiency": [
+        2053942,
+        2054000
+    ],
+    "Cold-induced_sweating_syndrome_1": [
+        2055771,
+        2055866
+    ],
+    "Right_atrial_isomerism": [
+        2056560,
+        2056594
+    ],
+    "Finnish_congenital_nephrotic_syndrome": [
+        2065584,
+        2065609,
+        2065655,
+        2066006
+    ],
+    "Congenital_multicore_myopathy_with_external_ophthalmoplegia": [
+        2070069,
+        2070151,
+        2071491,
+        2072659,
+        2073005,
+        2073448,
+        2074034,
+        2075149
+    ],
+    "Central_core_myopathy": [
+        2070147,
+        2071857,
+        2075054,
+        2075149,
+        2075223,
+        2075390
+    ],
+    "Malignant_hyperthermia,_susceptibility_to,_1": [
+        2072536,
+        2072668
+    ],
+    "Diamond-Blackfan_anemia_1": [
+        2083118,
+        2083164,
+        2083165,
+        2083171
+    ],
+    "Familial_type_3_hyperlipoproteinemia": [
+        2088673,
+        2088715,
+        2088731,
+        2088733,
+        2088744,
+        2088782,
+        2088787,
+        2088795
+    ],
+    "APOE4(-)-FREIBURG": [
+        2088679,
+        2088715
+    ],
+    "APOE5_VARIANT": [
+        2088699,
+        2088715
+    ],
+    "APOE3_VARIANT": [
+        2088706,
+        2088742
+    ],
+    "APOE3_ISOFORM": [
+        2088714,
+        2088743
+    ],
+    "Alzheimer_disease_3,_protection_against,_due_to_APOE3-Christchurch": [
+        2088714,
+        2088728,
+        2088743
+    ],
+    "Hyperlipoproteinemia_due_to_APOE1": [
+        2088723,
+        2088744
+    ],
+    "HYPERLIPOPROTEINEMIA,_TYPE_III,_AND_ATHEROSCLEROSIS_ASSOCIATED_WITH_APOE7": [
+        2088791,
+        2088793
+    ],
+    "Xeroderma_pigmentosum": [
+        2089797,
+        2090315
+    ],
+    "Autosomal_recessive_limb-girdle_muscular_dystrophy_type_2I": [
+        2093692,
+        2093693,
+        2094147
+    ],
+    "Hereditary_hyperferritinemia_with_congenital_cataracts": [
+        2098983,
+        2098985
+    ],
+    "LUTEINIZING_HORMONE_POLYMORPHISM": [
+        2099757,
+        2099760
+    ],
+    "Fatal_familial_insomnia": [
+        2127256,
+        2127290
+    ],
+    "Inherited_Creutzfeldt-Jakob_disease": [
+        2127256,
+        2127290
+    ],
+    "McKusick-Kaufman_syndrome": [
+        2130173,
+        2130253
+    ],
+    "Developmental_cataract": [
+        2132554,
+        2132592,
+        2209168,
+        2209169
+    ],
+    "Gluthathione_synthetase_deficiency": [
+        2140958,
+        2140981
+    ],
+    "Acromesomelic_dysplasia_2B": [
+        2141858,
+        2141859,
+        2141862
+    ],
+    "Septo-optic_dysplasia_sequence": [
+        2145194,
+        2145196
+    ],
+    "Tubulinopathy": [
+        2145194,
+        2145196
+    ],
+    "DNA_topoisomerase_I,_camptothecin-resistant": [
+        2145512,
+        2145513
+    ],
+    "SCID_due_to_ADA_deficiency,_delayed_onset": [
+        2147562,
+        2147566
+    ],
+    "Severe_combined_immunodeficiency,_autosomal_recessive,_T_cell-negative,_B_cell-negative,_NK_cell-negative,_due_to_adenosine_deaminase_deficiency": [
+        2147597,
+        2147707,
+        2147853,
+        2147862,
+        2147896,
+        2147919,
+        2147932
+    ],
+    "Periventricular_heterotopia_with_microcephaly,_autosomal_recessive": [
+        2152355,
+        2152356
+    ],
+    "Dyskeratosis_congenita,_autosomal_recessive_5": [
+        2165981,
+        2167099
+    ],
+    "Microcephaly,_short_stature,_and_limb_abnormalities": [
+        2175172,
+        2175245,
+        2175270,
+        2175324
+    ],
+    "Microcephalic_primordial_dwarfism": [
+        2181401,
+        2181479
+    ],
+    "Leukocyte_adhesion_deficiency_1": [
+        2186453,
+        2186750,
+        2186779,
+        2186801
+    ],
+    "BETHLEM_MYOPATHY_1,_AUTOSOMAL_RECESSIVE": [
+        2192817,
+        2192840
+    ],
+    "Vasculitis_due_to_ADA2_deficiency": [
+        2197790,
+        2197831
+    ],
+    "Peroxisome_biogenesis_disorder_7A_(Zellweger)": [
+        2198526
+    ],
+    "Polymicrogyria,_perisylvian,_with_cerebellar_hypoplasia_and_arthrogryposis": [
+        2203253,
+        2203293
+    ],
+    "Autosomal_dominant_mitochondrial_myopathy_with_exercise_intolerance": [
+        2207014,
+        2207059
+    ],
+    "Neurofibromatosis,_type_2": [
+        2217411,
+        2217458
+    ],
+    "Parkinsonian-pyramidal_syndrome": [
+        2222970,
+        2223000
+    ],
+    "Focal_segmental_glomerulosclerosis_4,_susceptibility_to": [
+        2224843,
+        2224854
+    ],
+    "Focal_segmental_glomerulosclerosis,_susceptibility_to": [
+        2224843,
+        2224854
+    ],
+    "Hyalinosis,_Segmental_Glomerular": [
+        2224843,
+        2224854,
+        2224856
+    ],
+    "Infantile_neuroaxonal_dystrophy": [
+        2229575,
+        2229693,
+        2229897,
+        2230105
+    ],
+    "Adenylosuccinate_lyase_deficiency": [
+        2232272,
+        2232375
+    ],
+    "Optic_atrophy_9": [
+        2234868,
+        2235242
+    ],
+    "Debrisoquine,_ultrarapid_metabolism_of": [
+        2236042,
+        2236097
+    ],
+    "Deutetrabenazine_response": [
+        2236042,
+        2236097,
+        2236201
+    ],
+    "Tamoxifen_response": [
+        2236042,
+        2236097,
+        2236201
+    ],
+    "Optic_atrophy_15": [
+        2237315,
+        2237319
+    ],
+    "Microcephaly_and_chorioretinopathy_1": [
+        2240876,
+        2241635
+    ],
+    "Orofaciodigital_syndrome_I": [
+        2251931,
+        2252016
+    ],
+    "Nance-Horan_syndrome": [
+        2253622,
+        2253623
+    ],
+    "Familial_X-linked_hypophosphatemic_vitamin_D_refractory_rickets": [
+        2258050,
+        2258052
+    ],
+    "Duchenne_muscular_dystrophy": [
+        2261562,
+        2261600
+    ],
+    "Spermatogenic_failure,_X-linked,_3": [
+        2267952,
+        2267959
+    ],
+    "Hypohidrotic_X-linked_ectodermal_dysplasia": [
+        2289418,
+        2289422
+    ],
+    "Angiokeratoma_corporis_diffusum": [
+        2304311,
+        2304410,
+        2304442,
+        2304511
+    ],
+    "X-linked_Alport_syndrome": [
+        2306946,
+        2308254
+    ],
+    "Hyper-IgM_syndrome_type_1": [
+        2318514,
+        2318518
+    ],
+    "Mucopolysaccharidosis,_MPS-II": [
+        2320200,
+        2320201,
+        2320219,
+        2320222,
+        2320227,
+        2320233
+    ],
+    "Creatine_transporter_deficiency": [
+        2323395,
+        2323396
+    ],
+    "SSR4-congenital_disorder_of_glycosylation": [
+        2325006
+    ],
+    "Severe_neonatal-onset_encephalopathy_with_microcephaly": [
+        2327300,
+        2327689,
+        2327743
+    ],
+    "Anemia,_nonspherocytic_hemolytic,_due_to_G6PD_deficiency": [
+        2332918,
+        2332964,
+        2332989,
+        2332993,
+        2333005,
+        2333034,
+        2333070,
+        2333086,
+        2333088,
+        2333124,
+        2333125,
+        2333146,
+        2333164,
+        2333216,
+        2333219,
+        2333241,
+        2333262,
+        2333272,
+        2333284,
+        2333291,
+        2333292,
+        2333300,
+        2333321,
+        2333335,
+        2333339,
+        2333341,
+        2333343,
+        2333345,
+        2333346,
+        2333364,
+        2333366,
+        2333399,
+        2333421
+    ],
+    "Chronic_granuloma_and_hemolytic_anemia": [
+        2333272,
+        2333291,
+        2333364
+    ],
+    "G6PD_SANTAMARIA": [
+        2333292,
+        2333345
+    ],
+    "G6PD_deficiency": [
+        2333345,
+        2333399
+    ]
+}
