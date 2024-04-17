@@ -69,7 +69,8 @@ if os.path.exists(archivo_indices_clndnincl):
 else:
     st.error("ATENCIÓN: Ejecuta PRIMERO análisis -> CLNDNINCL ")
 
-
+if not os.path.exists('VCF/GRCh38_latest_clinvar.vcf'):
+    st.error(("ATENCIÓN: No está el archivo VCF con el nombre adecuado"))
 
 # Define las columnas específicas
 columns = ["#CHROM", "#POS", "#ID", "#REF", "#ALT", "#QUAL", "#FILTER", "#INFO"]
