@@ -103,8 +103,8 @@ def run():
         with subcolumna1:
             st.session_state.data_type = st.radio("Elige una opción", ('ID', 'Cromosoma', 'CLNDN','CLNDNINCL', 'Subcampo_de_Info'), index = 0)
         
-        if st.session_state.data_type =='ID':
 
+        if st.session_state.data_type =='ID':
             if st. button("Verificar ID Distintos"):
                 numero1 = vc.numero_datos_vcf(RUTA)
                 numero2 = len(vc.obtain_all_ID_inVCF(RUTA))
@@ -115,7 +115,6 @@ def run():
                     st.error("Los ID no son únicos")
 
         
-    
         if st.session_state.data_type =='Cromosoma':
                 
             if st.button("Chromosomas"):
@@ -138,8 +137,6 @@ def run():
 
         if st.session_state.data_type == 'CLNDN':
             if st.button('Busca'):
-
-                #data = sorted(list(vc.busca_todos_valores_en_un_subcampo_de_info(ruta,'CLNDN')))
                 dicc = {}
                 with open(RUTA, 'r') as arch:
                     num = 0
@@ -155,8 +152,6 @@ def run():
 
                 data = sorted(list(dicc.keys()))
                
-
-
                 ruta_dic ='DATOS/CLNDN/CLNDN.JSON'
                 crea_directori_si_no_existe(os.path.dirname(ruta_dic))
 
@@ -164,6 +159,7 @@ def run():
                 st.success(f'Guardado en disco en {ruta_dic}\nNúmero de enfermedades: {len(dicc)}',icon='✅')
                 df = pd.DataFrame(data, columns=["Enfermedad"])
                 st.dataframe(df)
+
 
         if st.session_state.data_type == 'Subcampo_de_Info':
             if st.button('Busca'):
@@ -196,8 +192,6 @@ def run():
                                 update_dictionary(dicc, clndn, num)
 
                 data = sorted(list(dicc.keys()))
-
-
                 vc.guardar_dicc_json('DATOS/CLNDNINCL/CLNDNINCL.JSON', dicc)
                 st.success(f'Guardado en disco en DATOS/CLNDNINCL/CLNDNINCL.JSON\nNúmero de enfermedades: {len(dicc)}')
                 df = pd.DataFrame(data, columns=["Enfermedad"])
@@ -256,15 +250,13 @@ def run():
             ## Sobre:
             Creación del archivo VCF por patología\n
                     """)
-            #st.title("Create VCF FILE")
+
             st.subheader("Crea archivo VCF filtrado según CLNDN")
             ruta_archivo = "DATOS/CLNDN/CLNDN.json"
             diccionario_leido = vc.leer_dic_json(ruta_archivo)
             opcion_seleccionada = st.selectbox("Selecciona una enfermedad", list(diccionario_leido.keys()))
             
             if st.button("Buscar"):
-            # Convertir result.stdout a DataFrame
-            
                 _, _, busqueda = mostrar_dataframe(opcion_seleccionada,'CLNDN')
                 print(opcion_seleccionada)
 
@@ -282,9 +274,6 @@ def parse_info_column(info_col):
 
 #@st.cache_data               
 def mostrar_dataframe(opcion_seleccionada, param_str:str):
-
-    #aux = vc.buscar_campo_en_vcf_string(ruta, opcion_seleccionada, param_str)
-
     busqueda=''
     if param_str=='CLNDN':
         busqueda = busca_en_arch(opcion_seleccionada,param_str)
@@ -390,4 +379,3 @@ if __name__ == '__main__':
         st.session_state['loaded'] = False
 
     run()
-
