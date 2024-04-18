@@ -72,6 +72,8 @@ else:
 if not os.path.exists('VCF/GRCh38_latest_clinvar.vcf'):
     st.error(("ATENCIÓN: No está el archivo VCF con el nombre adecuado"))
 
+
+
 # Define las columnas específicas
 columns = ["#CHROM", "#POS", "#ID", "#REF", "#ALT", "#QUAL", "#FILTER", "#INFO"]
 
@@ -105,7 +107,8 @@ def run():
 
             if st. button("Verificar ID Distintos"):
                 numero1 = vc.numero_datos_vcf(RUTA)
-                numero2 = len(vc.obtain_all_names_chromo_inVCF_grep(RUTA, 3))
+                numero2 = len(vc.obtain_all_ID_inVCF(RUTA))
+
                 if numero1 == numero2:
                     st.success(f"Enhorabuena. Los ID son únicos\nNumero datos = {numero1}\nNúmero registros distintos = {numero2}")
                 else:
@@ -117,7 +120,7 @@ def run():
                 
             if st.button("Chromosomas"):
                 
-                data = sorted(list(vc.obtain_all_names_chromo_inVCF_grep(RUTA)))
+                data = sorted(list(vc.obtain_all_names_chrom_inVCF(RUTA)))
 
                 df = pd.DataFrame([data], columns=None)
                 st.dataframe(df)
@@ -127,6 +130,7 @@ def run():
 
                 dic = {clave: 0 for clave in data}
                 ruta_dic_c ='DATOS/Cromosoma/CROMOSOMAS.JSON'
+                
                 crea_directori_si_no_existe(os.path.dirname(ruta_dic_c))
 
                 vc.guardar_dicc_json(ruta_dic_c, dic)
@@ -150,6 +154,8 @@ def run():
                                 update_dictionary(dicc, clndn, num)
 
                 data = sorted(list(dicc.keys()))
+               
+
 
                 ruta_dic ='DATOS/CLNDN/CLNDN.JSON'
                 crea_directori_si_no_existe(os.path.dirname(ruta_dic))
@@ -310,6 +316,7 @@ def mostrar_dataframe_pos(opcion_seleccionada:str):
 @st.cache_data  
 def mostrar_dataframe_id(opcion_seleccionada:str):
     sol = vc.buscar_id_en_vcf_str(RUTA, opcion_seleccionada)
+
     if sol is not None:
         data = StringIO(sol)
         df = pd.read_csv(data, sep="\t", names=columns, header=None, dtype={0: str})

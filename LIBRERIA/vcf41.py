@@ -528,22 +528,15 @@ def guardar_dicc_json(ruta:str, diccionario:dict)->None:
     print(f"Diccionario guardado en {ruta}")
 
 # Alberto
-def obtain_all_names_chromo_inVCF_grep(ruta:str,num:int=1)->set:
+def obtain_all_ID_inVCF(ruta:str)->set:
     """
     Obtiene un conjunto único de nombres o identificadores desde un archivo VCF
     ubicado en la ruta especificada, basado en una columna específica.
 
-    Utiliza comandos de terminal (grep y awk) para filtrar y extraer datos de un
-    archivo VCF. Primero, utiliza grep para omitir las líneas que comienzan con '#',
-    que son comentarios en archivos VCF. Luego, utiliza awk para seleccionar y
-    devolver solo la columna especificada por el parámetro 'num'.
-
     Args:
         ruta (str): La ruta del archivo VCF del cual se extraerán los nombres o
                     identificadores.
-        num (int): El número de columna del archivo VCF del cual se quieren extraer
-                   los nombres o identificadores. Por defecto, es 1, lo que
-                   corresponde a la primera columna del archivo VCF.
+
 
     Returns:
         set: Un conjunto de cadenas únicas que representan los nombres o
@@ -552,18 +545,35 @@ def obtain_all_names_chromo_inVCF_grep(ruta:str,num:int=1)->set:
     Nota:
         Este método depende de la ejecución de comandos de shell específicos de Unix.
     """
+    pattern = re.compile(r'^(?!#)[^\t]*\t[^\t]*\t([^\t]+)')
+    with open(ruta,'r') as arch:
+        conjunto = {pattern.match(linea).group(1) for linea in arch if pattern.match(linea)}
 
-    # Construye y ejecuta el comando para filtrar y extraer la columna deseada del archivo VCF
-    command = f"grep -v '^#' {ruta} | awk '{{print ${num}}}'"
-    result = subprocess.run(command, shell=True, text=True, capture_output=True)
-    
-    # Divide la salida del comando en líneas y cuenta cuántas palabras (líneas) fueron extraídas
-    palabras = result.stdout.splitlines()
+    return conjunto
 
-    # Convierte la lista de palabras en un conjunto para eliminar duplicados
-    conjunto_palabras = set(palabras)
+# Alberto
+def obtain_all_names_chrom_inVCF(ruta:str)->set:
+    """
+    Obtiene un conjunto único de nombres o identificadores desde un archivo VCF
+    ubicado en la ruta especificada, basado en una columna específica.
 
-    return conjunto_palabras
+    Args:
+        ruta (str): La ruta del archivo VCF del cual se extraerán los nombres o
+                    identificadores.
+
+
+    Returns:
+        set: Un conjunto de cadenas únicas que representan los nombres o
+             identificadores extraídos de la columna especificada del archivo VCF.
+
+    Nota:
+        Este método depende de la ejecución de comandos de shell específicos de Unix.
+    """
+    pattern = re.compile(r'^(?!#)([^\t]+)')
+    with open(ruta,'r') as arch:
+        conjunto = {pattern.match(linea).group(1) for linea in arch if pattern.match(linea)}
+
+    return conjunto
 
 # Alberto
 def busca_todos_valores_en_un_subcampo_de_info(ruta:str, subcampo:str)->set:
@@ -764,47 +774,20 @@ def crea_dic_elementos_encontrados(elementos:str)->dict:
         registro_vcf[columnas[2]]['INFO'] = info_dict
     return registro_vcf
 
-
-
-
-
-
-def buscar_id_en_vcf_str_experimental(ruta:str, numeroID)->str:
+def transform_element(element):
+    """ 
+        Transforma un elemento del nombre del cromosoma que por ejemplo se haya encontrado
+        en el VCF y lo cambia a nombre establecido en NCBI
+    
     """
-    Busca una ID específica en un archivo VCF y extrae información relacionada.
-
-    El archivo VCF contiene solo estos campos:
-        CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
-    Esta función utiliza el comando `grep` de UNIX para buscar una ID específica en un archivo VCF,
-    basándose en una expresión regular construida alrededor de la ID. Si la ID se encuentra, extrae y
-    procesa información relacionada a la variante, incluyendo cromosoma, posición, ID, referencia, 
-    alteración, calidad, filtro e información adicional. La información adicional (INFO) se procesa 
-    adicionalmente para convertirla en un diccionario de pares clave=valor.
-
-    Args:
-        ruta (str): La ruta al archivo VCF donde se buscará la ID.
-        numeroID (str): La ID específica a buscar dentro del archivo VCF.
-
-    Returns:
-        dict: Un diccionario con la información extraída para la ID encontrada, con las claves siendo
-              los campos del archivo VCF y los valores siendo los datos correspondientes a esos campos.
-              Si se encuentra información INFO adicional, esta se devuelve como un diccionario anidado.
-              Retorna None si la ID no se encuentra en el archivo.
-
-    Notas:
-        - Esta función utiliza `subprocess.run` para ejecutar `grep` y buscar la ID, por lo que es 
-          necesario que `grep` esté disponible en el sistema donde se ejecute la función.
-        - La función decodifica la salida de `grep` a UTF-8, asumiendo que el archivo VCF está codificado
-          en este formato.
-    """
-
-    expresion_regular = f'^([^\t]*\t){{2}}{numeroID}(\t|;)' 
-    patron = re.compile(expresion_regular)
-    res=''
-    with open(ruta, 'r') as archivo:
-        for linea  in archivo:
-            if re.search(patron, linea):
-                res +=linea
-    return res
-
+    if element.isdigit():  
+        return f"NC_0000{element.zfill(2)}"
+    elif element == 'X':
+        return "NC_000023"
+    elif element == 'Y':
+        return "NC_000024"
+    elif element == 'MT':
+        return "NC_012920"
+    else:
+        return element  
     
