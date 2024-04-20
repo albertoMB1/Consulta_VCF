@@ -674,7 +674,7 @@ def buscar_id_en_vcf_str(ruta:str, numeroID)->str:
     lineas_encontradas = resultado.stdout.decode('utf-8').strip().split('\n')
 
     if lineas_encontradas[0]:
-        return lineas_encontradas[0]
+        return '\n'.join(lineas_encontradas)
     else:
         print(f'La ID {numeroID} no se encontró en el archivo.')
         return None
@@ -715,9 +715,9 @@ def buscar_pos_en_vcf_str(ruta:str, numeroPOS)->str:
 
     # Decodifica el resultado a texto y lo divide por líneas.
     lineas_encontradas = resultado.stdout.decode('utf-8').strip().split('\n')
-    
+    print(lineas_encontradas)
     if lineas_encontradas[0]:
-        return lineas_encontradas[0]
+        return '\n'.join(lineas_encontradas)
     else:
         print(f'La ID {numeroPOS} no se encontró en el archivo.')
         return None
