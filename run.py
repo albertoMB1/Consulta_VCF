@@ -10,7 +10,6 @@ import json
 from LIBRERIA import vcf41 as vc
 
 
-
 # Configuración página inicial
 st.set_page_config(
                     page_title="TFG UPV",
@@ -32,7 +31,6 @@ dic ={'1': 'ANALISIS DATOS',
 
 RUTA = 'VCF/GRCh38_latest_clinvar.vcf'
 
-
 # Carpeta Base
 ruta_base_1 = 'Datos'
 # Lista de subcarpetas para crear dentro de la carpeta 'Datos'
@@ -44,9 +42,6 @@ os.makedirs(ruta_base_1, exist_ok=True)
 # Crear las subcarpetas dentro de 'Datos' si no existen
 for carpeta in subcarpetas:
     os.makedirs(os.path.join(ruta_base_1, carpeta), exist_ok=True)
-
-
-
 
 
 # Carga el diccionario de clndn para encontrar más rápido las enfermedades
@@ -266,7 +261,6 @@ def run():
             # Convertir result.stdout a DataFrame
             
                 _, _, busqueda = mostrar_dataframe(opcion_seleccionada,'CLNDN')
-                print(opcion_seleccionada)
 
                 arch_ruta= f'Output/{elimina_barra(opcion_seleccionada)}.vcf'
      
