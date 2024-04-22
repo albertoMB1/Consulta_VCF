@@ -2,12 +2,11 @@
 import os
 import pandas as pd
 import streamlit as st
-
 import pandas as pd
-
 from io import StringIO
-import json
 from LIBRERIA import vcf41 as vc
+import orjson
+import re
 
 
 # Configuración página inicial
@@ -34,7 +33,7 @@ RUTA = 'VCF/GRCh38_latest_clinvar.vcf'
 # Carpeta Base
 ruta_base_1 = 'Datos'
 # Lista de subcarpetas para crear dentro de la carpeta 'Datos'
-subcarpetas = ['Cromosoma', 'CLNDNINCL', 'CLNDN','SUBCAM']
+subcarpetas = ['Cromosoma', 'POS', 'CLNDNINCL', 'CLNDN','SUBCAM']
 
 # Crear la carpeta 'Datos' si no existe
 os.makedirs(ruta_base_1, exist_ok=True)
@@ -44,6 +43,13 @@ for carpeta in subcarpetas:
     os.makedirs(os.path.join(ruta_base_1, carpeta), exist_ok=True)
 
 
+@st.cache_data
+def leer_orjson(ruta):
+    with open(ruta, 'rb') as f:
+        dic_indice = orjson.loads(f.read())
+    print(f"Diccionario leido en {ruta}")
+    return dic_indice
+
 # Carga el diccionario de clndn para encontrar más rápido las enfermedades
 # Es un diccionario cuya clave son listas que contiene las líneas del archivo VCF
 # Donde se encuentra
@@ -51,24 +57,30 @@ for carpeta in subcarpetas:
 archivo_indices_cldnd = 'DATOS/CLNDN/CLNDN.JSON'
 
 if os.path.exists(archivo_indices_cldnd):
-    with open(archivo_indices_cldnd, 'r') as fh:
-        indices_enfermedades_clndn = json.load(fh)
+        indices_enfermedades_clndn = leer_orjson(archivo_indices_cldnd)
+
 else:
     st.error("ATENCIÓN: Ejecuta PRIMERO análisis -> CLNDN ")
 
-archivo_indices_clndnincl = 'DATOS/CLNDNINCL/CLNDNINCL.JSON'
 
+archivo_indices_clndnincl = 'DATOS/CLNDNINCL/CLNDNINCL.JSON'
 if os.path.exists(archivo_indices_clndnincl):
-    with open(archivo_indices_clndnincl, 'r') as fh:
-        indices_enfermedades_clndnincl = json.load(fh)
+    indices_enfermedades_clndnincl = leer_orjson(archivo_indices_clndnincl)
+
 else:
     st.error("ATENCIÓN: Ejecuta PRIMERO análisis -> CLNDNINCL ")
+
+
+archivo_indices_clndnincl = 'DATOS/POS/dic_pos.JSON'
+if not os.path.exists(archivo_indices_clndnincl):
+    st.error("ATENCIÓN: Ejecuta PRIMERO análisis -> POS ")
+
 
 if not os.path.exists('VCF/GRCh38_latest_clinvar.vcf'):
     st.error(("ATENCIÓN: No está el archivo VCF con el nombre adecuado"))
 
 
-
+pattern = re.compile(r'^(?!#)([^\t]+)\t([^\t]+)')
 # Define las columnas específicas
 columns = ["#CHROM", "#POS", "#ID", "#REF", "#ALT", "#QUAL", "#FILTER", "#INFO"]
 
@@ -96,7 +108,7 @@ def run():
                          """)
         subcolumna1, subcolumna2 = st.columns(2)
         with subcolumna1:
-            st.session_state.data_type = st.radio("Elige una opción", ('ID', 'Cromosoma', 'CLNDN','CLNDNINCL', 'Subcampo_de_Info'), index = 0)
+            st.session_state.data_type = st.radio("Elige una opción", ('ID', 'Cromosoma','Posición', 'CLNDN','CLNDNINCL', 'Subcampo_de_Info'), index = 0)
         
         if st.session_state.data_type =='ID':
 
@@ -130,9 +142,28 @@ def run():
 
                 vc.guardar_dicc_json(ruta_dic_c, dic)
 
+        if st.session_state.data_type == 'Posición':
+            if st.button('Crea dic de posición'):
+                dic_pos = {}
+
+                with open(RUTA, 'r') as file:
+                    for numlin, line in enumerate(file, 1):
+                        match = pattern.match(line)
+                        if match:
+                            key = match.group(2)
+                            if key not in dic_pos:
+                                dic_pos[key] = [numlin]
+                            else:
+                                dic_pos[key].append(numlin)
+
+                ruta_dic_c ='DATOS/POS/dic_pos.JSON'
+                vc.guardar_dicc_json(ruta_dic_c,dic_pos)
+                st.success(f'Guardado en disco en {ruta_dic_c}\nNúmero de claves Posicion: {len(dic_pos)}',icon='✅')
+
+                
 
         if st.session_state.data_type == 'CLNDN':
-            if st.button('Busca'):
+            if st.button('Busca CLNDN'):
 
                 #data = sorted(list(vc.busca_todos_valores_en_un_subcampo_de_info(ruta,'CLNDN')))
                 dicc = {}
@@ -175,7 +206,7 @@ def run():
 
 
         if st.session_state.data_type == 'CLNDNINCL':
-            if st.button('Busca'):
+            if st.button('Busca por CLNDNINCL'):
 
                 dicc = {}
                 with open(RUTA, 'r') as arch:
@@ -234,8 +265,10 @@ def run():
         # Búsqueda por POS
         if st.session_state.data_type =='POS':
             entrada = st.text_input("Escribe número POS")
+            indice_pos = leer_orjson('dic_pos.json')
+
             if st.button("Bucar posición"):
-                mostrar_dataframe_pos(entrada)
+                mostrar_dataframe_pos(entrada, indice_pos)
                     
         # Búsqued por CLNDNINCL
         if st.session_state.data_type =='Enfermedad_CLNDNINCL':
@@ -278,7 +311,6 @@ def parse_info_column(info_col):
 def mostrar_dataframe(opcion_seleccionada, param_str:str):
 
     #aux = vc.buscar_campo_en_vcf_string(ruta, opcion_seleccionada, param_str)
-
     busqueda=''
     if param_str=='CLNDN':
         busqueda = busca_en_arch(opcion_seleccionada,param_str)
@@ -296,10 +328,19 @@ def mostrar_dataframe(opcion_seleccionada, param_str:str):
 
     return df, data, busqueda
 
-@st.cache_data   
-def mostrar_dataframe_pos(opcion_seleccionada:str):
-    sol = vc.buscar_pos_en_vcf_str(RUTA, opcion_seleccionada)
-    if sol is not None:
+   
+def mostrar_dataframe_pos(opcion_seleccionada:str, indice_pos:dict):
+    if opcion_seleccionada in indice_pos:
+        con = set(indice_pos[opcion_seleccionada])
+        sol = []
+
+        with open(RUTA, 'r') as arch:
+            for indice, linea in enumerate(arch,1):
+                if indice in con:
+                    sol.append(linea)
+        st.toast(f'Búsqueda finalizada', icon='✅')
+        st.toast(f'Mostrando Datos',icon='🧑‍💻')
+        sol = ''.join(sol)
         data = StringIO(sol)
         df = pd.read_csv(data, sep="\t", names=columns, header=None, dtype={0: str})
         st.success(f'Número de resultados = {len(df)}')
@@ -373,7 +414,6 @@ def update_dictionary(dicc, values, linea_num):
             dicc[value].append(linea_num)
         else:
             dicc[value] = [linea_num]
-
 
 if __name__ == '__main__':
 

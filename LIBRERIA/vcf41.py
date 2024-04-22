@@ -6,9 +6,11 @@ import matplotlib.pyplot as plt
 import json
 #import pprint
 import time
+import orjson
 
 # Patrón de expresión regular para extraer el texto deseado
 patron = r"##INFO=<ID=([^,]+),"
+pattern_pos = re.compile(r'^(?!#)[^\t]*\t([^\t]+)')
 #pp =  pprint.PrettyPrinter(indent=4)
 elementos_escalpar = ['.','^', '$', '*', '[', ']', '+', '?', '{', '}', '\\','(',')']
 
@@ -522,10 +524,10 @@ def guardar_string_como_vcf(contenido:str, nombre_archivo_destino:str)->None:
     print(f"El archivo '{nombre_archivo_destino}' ha sido guardado satisfactoriamente.")
 
 # Alberto
-def guardar_dicc_json(ruta:str, diccionario:dict)->None:
-    with open(ruta, 'w', encoding='utf-8') as archivo:
-        json.dump(diccionario, archivo, ensure_ascii=False, indent=4)
-    print(f"Diccionario guardado en {ruta}")
+# def guardar_dicc_json(ruta:str, diccionario:dict)->None:
+#     with open(ruta, 'w', encoding='utf-8') as archivo:
+#         json.dump(diccionario, archivo, ensure_ascii=False, indent=4)
+#     print(f"Diccionario guardado en {ruta}")
 
 # Alberto
 def obtain_all_ID_inVCF(ruta:str)->set:
@@ -708,6 +710,7 @@ def buscar_pos_en_vcf_str(ruta:str, numeroPOS)->str:
     """
 
     # Define una expresión regular para buscar el numeroID específico en el archivo.
+
     expresion_regular = f'^([^\t]*\t){{1}}{numeroPOS}(\t|;)' 
 
     # Ejecuta el comando 'grep' para buscar la expresión regular en el archivo.
@@ -715,7 +718,7 @@ def buscar_pos_en_vcf_str(ruta:str, numeroPOS)->str:
 
     # Decodifica el resultado a texto y lo divide por líneas.
     lineas_encontradas = resultado.stdout.decode('utf-8').strip().split('\n')
-    print(lineas_encontradas)
+    
     if lineas_encontradas[0]:
         return '\n'.join(lineas_encontradas)
     else:
@@ -790,4 +793,8 @@ def transform_element(element):
         return "NC_012920"
     else:
         return element  
-    
+
+def guardar_dicc_json(ruta:str,dic:dict):
+    with open(ruta, 'wb') as f:
+        f.write(orjson.dumps(dic))
+    print(f"Diccionario guardado en {ruta}")
